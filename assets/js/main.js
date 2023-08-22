@@ -62,11 +62,7 @@ function generarCards() {
 
         const links = crearElemento("div", ["links", "text-center"]);
 
-        const spanGitHub = crearElemento("span", [
-          "fa-brands",
-          "fa-github",
-          "fa-lg",
-        ]);
+        const spanGitHub = crearElemento("span");
 
         const linkGithub = crearElemento("a", ["text-decoration-none"]);
         linkGithub.href = project.linkGitHub;
@@ -74,7 +70,7 @@ function generarCards() {
 
         const iconGitHub = crearElemento("i", [
           "fa-brands",
-          "fa-brands",
+          "fa-github",
           "fa-lg",
         ]);
 
