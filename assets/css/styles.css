@@ -48,31 +48,38 @@
 h1 {
   font-family: "Syne";
   font-weight: 900;
-  margin: 5% auto;
+  margin: 3% auto;
   background-image: var(--gradiant-custom-img);
   -webkit-background-clip: var(--gradiant-custom-img-webkit);
   background-clip: var(--gradiant-custom-img-bg);
   color: var(--gradiant-custom-txt-color);
-}
-
-.topics {
-  /* background-image: linear-gradient(to right, #3498db, #9b59b6); */
 }
 
 .topics span {
   font-size: 0.75rem;
-  background-image:  var(--gradiant-custom-img);
-  
+  background-image: var(--gradiant-custom-img);
 }
 
+.topic {
+  margin: 1%;
+}
 
-.links a{
+.links a {
   color: #000;
 }
 
-.links a:hover{
+.links a:hover {
   background-image: var(--gradiant-custom-img);
   -webkit-background-clip: var(--gradiant-custom-img-webkit);
   background-clip: var(--gradiant-custom-img-bg);
   color: var(--gradiant-custom-txt-color);
+}
+
+/* Media querys */
+@media (max-width: 768px) {
+  #content {
+    max-width: 750px;
+    width: 100%;
+    margin: 30px auto;
+  }
 }
