@@ -1,0 +1,51 @@
+/* Fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,400&display=swap');
+
+
+body {
+    max-width: 1500px;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 100vh;
+}
+
+h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-left: 2%;
+    margin-bottom: 1.2%;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.item-desplegable:first-child {
+    margin-left:1rem;
+}
+.item-desplegable {
+    display: flex;
+    justify-items: flex-start;
+    align-items: end;
+    width: 100vh;
+    height: 80vh ;
+    margin-right:1rem;
+    border-radius: 25px;
+    position: relative;
+    flex: 0.5;
+    transition: flex-grow 0.8s ease; /* Agrega una transición para flex-grow */
+}
+
+.item-desplegable:hover {
+    cursor: pointer;
+}
+
+.desplegado {
+    flex: 5;
+}
