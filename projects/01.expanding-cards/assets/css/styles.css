@@ -38,7 +38,7 @@ h3 {
     border-radius: 25px;
     position: relative;
     flex: 0.5;
-    transition: flex-grow 0.8s ease; /* Agrega una transición para flex-grow */
+    transition: flex-grow 0.5s ease; /* Agrega una transición para flex-grow */
 }
 
 .item-desplegable:hover {

@@ -5,5 +5,12 @@
     "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
     "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/01.expanding-cards",
     "linkVistaPrevia": "projects/01.expanding-cards/index.html"
+  },
+  {
+    "titulo": "Expanding Cards",
+    "miniatura": "assets/images/captura_progress-steps.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/02.progress-steps",
+    "linkVistaPrevia": "projects/02.progress-steps/index.html"
   }
 ]
