@@ -12,5 +12,12 @@
     "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
     "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/02.progress-steps",
     "linkVistaPrevia": "projects/02.progress-steps/index.html"
+  },
+  {
+    "titulo": "Hidden Search Widget",
+    "miniatura": "assets/images/captura_hidden-search-widget.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/04.hidden-search-widget",
+    "linkVistaPrevia": "projects/04.hidden-search-widget/index.html"
   }
 ]
