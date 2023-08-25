@@ -24,7 +24,12 @@ function generarCards() {
           // Cada 3 tarjetas, crear un nuevo div row
           row = crearDivRow(contenedorProjects);
         }
-        const col = crearElemento("div", ["col", "mb-3"]);
+        const col = crearElemento("div", [
+          "col",
+          "mb-3",
+          "d-flex",
+          "align-items-stretch",
+        ]);
 
         const card = crearElemento("div", ["card"]);
         card.style.width = "18rem";
