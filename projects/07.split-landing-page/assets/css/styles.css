@@ -1,0 +1,142 @@
+/* Fuentes */
+
+/* Regular */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+.team {
+  flex: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 0px auto;
+  align-items: center;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+#team-perros {
+  background-image: url("../images/teamPerros.jpg");
+  background-attachment: fixed;
+
+  & .overlay {
+    background: rgba(52, 152, 219, 0.7);
+  }
+
+  & .title-2 {
+    z-index: 2;
+  }
+  & .btn {
+    z-index: 2;
+  }
+
+  & .btn:hover {
+    background-color: rgba(52, 152, 219, 1);
+  }
+}
+
+#team-gatos {
+  background-image: url("../images/teamGatos.jpeg");
+  background-attachment: fixed;
+
+  & .overlay {
+    background: rgba(155, 89, 182, 0.7);
+  }
+
+  & .title-2 {
+    z-index: 2;
+  }
+  & .btn {
+    z-index: 2;
+  }
+
+  & .btn:hover {
+    background-color: rgba(155, 89, 182, 1);
+  }
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.9);
+  opacity: 0.8;
+  transition: background-color 0.3s linear;
+}
+
+.title-2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: normal;
+}
+
+& .btn:hover {
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.team.active {
+  flex: 5;
+}
+
+.voto {
+  color: #fff;
+  font-weight: normal;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+
+.btn-reset {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/reset.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-reset:hover {
+  background-image: url("../images/reset-hover.png");
+  cursor: pointer;
+}
