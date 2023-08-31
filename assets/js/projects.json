@@ -19,5 +19,12 @@
     "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
     "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/04.hidden-search-widget",
     "linkVistaPrevia": "projects/04.hidden-search-widget/index.html"
+  },
+  {
+    "titulo": "Split Landing Page",
+    "miniatura": "assets/images/captura_split-landing-page.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/07.split-landing-page",
+    "linkVistaPrevia": "projects/07.split-landing-page/index.html"
   }
 ]
