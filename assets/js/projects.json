@@ -1,7 +1,30 @@
-{
-  "titulo": "Expanding Cards",
-  "imagen": "assets/images/captura_expand-cards.png",
-  "etiquetas": ["HTML", "CSS", "Javascript", "Boostrap"],
-  "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/master/projects/01.expanding-cards",
-  "linkVistaPrevia": "projects/01.expanding-cards/index.html"
-}
+[
+  {
+    "titulo": "Expanding Cards",
+    "miniatura": "assets/images/captura_expand-cards.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/01.expanding-cards",
+    "linkVistaPrevia": "projects/01.expanding-cards/index.html"
+  },
+  {
+    "titulo": "Expanding Cards",
+    "miniatura": "assets/images/captura_progress-steps.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/02.progress-steps",
+    "linkVistaPrevia": "projects/02.progress-steps/index.html"
+  },
+  {
+    "titulo": "Hidden Search Widget",
+    "miniatura": "assets/images/captura_hidden-search-widget.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/04.hidden-search-widget",
+    "linkVistaPrevia": "projects/04.hidden-search-widget/index.html"
+  },
+  {
+    "titulo": "Split Landing Page",
+    "miniatura": "assets/images/captura_split-landing-page.png",
+    "etiquetas": ["HTML", "CSS", "jQuery", "JS"],
+    "linkGitHub": "https://github.com/bmartinezr86/50projects50days/tree/index/projects/07.split-landing-page",
+    "linkVistaPrevia": "projects/07.split-landing-page/index.html"
+  }
+]
