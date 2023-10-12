@@ -3,26 +3,9 @@
 /* Syne Variable Font */
 @font-face {
   font-family: "Syne";
-  src: url("../fonts/Syne/Syne-VariableFont_wght.ttf")
-    format("truetype-variations");
+  src: url("../fonts/Syne/Syne-VariableFont_wght.ttf") format("truetype-variations");
   font-weight: 1 999;
   font-stretch: 1% 100%;
-}
-
-/* Poppins Bold */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
-}
-
-/* Poppins Semibold */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
 }
 
 /* Poppins Regular */
@@ -39,12 +22,14 @@
   --gradiant-custom-img-bg: text;
   --gradiant-custom-txt-color: transparent;
 }
+
 #content {
   height: auto;
   max-width: 1200px;
   width: 100%;
   margin: 30px auto;
 }
+
 h1 {
   font-family: "Syne";
   font-weight: 900;
@@ -55,22 +40,22 @@ h1 {
   color: var(--gradiant-custom-txt-color);
 }
 
-.topics {
-  /* background-image: linear-gradient(to right, #3498db, #9b59b6); */
+.card-title {
+  font-family: "Poppins";
+  font-weight: 400;
 }
 
 .topics span {
   font-size: 0.75rem;
-  background-image:  var(--gradiant-custom-img);
-  
+  background-image: var(--gradiant-custom-img);
 }
 
 
-.links a{
+.links a {
   color: #000;
 }
 
-.links a:hover{
+.links a:hover {
   background-image: var(--gradiant-custom-img);
   -webkit-background-clip: var(--gradiant-custom-img-webkit);
   background-clip: var(--gradiant-custom-img-bg);
